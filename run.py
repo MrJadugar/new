@@ -10,7 +10,7 @@ import requests
  
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from Kashif import jadugar
-    jadugar()
+    from Kashif import Jadugar
+    Jadugar()
 elif bit == '32bit':
     print('YOUR PHONE IS NOT SUPPORTED BRO')
